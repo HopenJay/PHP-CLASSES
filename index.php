@@ -93,7 +93,7 @@ class Subscriber1 extends Customer1 {
     public $plan;
     public function __construct($id, $name, $email, $balance, $plan)
     {
-        return parent::__construct($id, $name, $email, $balance);
+        parent::__construct($id, $name, $email, $balance);
         $this->plan = $plan;
     }
     
